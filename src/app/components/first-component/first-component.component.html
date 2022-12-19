@@ -1,0 +1,10 @@
+<p>Nome: {{name}}</p>
+<p>Idade: {{age}}</p>
+
+<b>Linguagens que trabalha:</b>
+<p *ngFor="let teste of languages">{{teste}}</p>
+
+<b>Seguidores:</b>
+<p *ngFor="let teste of seguidores">{{teste.login}}</p>
+
+<button type="button" class="btn btn-default" (click)="getGithub();">Obter GitHub Values</button>
