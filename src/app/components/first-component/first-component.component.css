@@ -1,0 +1,9 @@
+.seguidores {
+    max-width: 200px;
+    max-height: 200px;
+    overflow-y:scroll;
+    border: 1px solid rgb(156, 156, 156);
+    background-color: #ccc;
+    padding: 16px;
+    border-radius: 3px;
+}

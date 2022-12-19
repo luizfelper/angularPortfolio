@@ -4,7 +4,8 @@
 <b>Linguagens que trabalha:</b>
 <p *ngFor="let teste of languages">{{teste}}</p>
 
+<div class="seguidores">
 <b>Seguidores:</b>
-<p *ngFor="let teste of seguidores">{{teste.login}}</p>
-
-<button type="button" class="btn btn-default" (click)="getGithub();">Obter GitHub Values</button>
+<p *ngFor="let teste of seguidores">{{teste ? teste.login : 'Carregando...'}}</p>
+</div>
+<!-- <button type="button" class="btn btn-default" (click)="getGithub();">Obter GitHub Values</button> -->
